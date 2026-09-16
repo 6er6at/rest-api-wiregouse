@@ -48,7 +48,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Warehouse REST API",
+    title="Warehouse REST API v1.1",
     version="1.0.0",
     lifespan=lifespan,
 )
