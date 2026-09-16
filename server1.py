@@ -204,3 +204,5 @@ def delete_product(product_id: int):
         )
 
     return {"message": "Product deleted successfully"}
+
+# Git practice: first update
